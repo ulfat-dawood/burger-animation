@@ -4,6 +4,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: url(./img/search.svg), auto;
+    background: #f5f5f5;
 }
 .container{
     border:1px solid grey;
@@ -58,9 +60,6 @@ body{
     transform: translateY(-50);
     font-size: 25px;
 }
-.img:hover::before{
-    transform: scale(1);
-}
 .img.left::before{
     padding: 3px 80px 5px 3px;
     left:-40%;
@@ -72,4 +71,7 @@ body{
     right:-40%; 
     justify-content: flex-end;
     transform-origin: left bottom;
+}
+.img:hover::before{
+    transform: scale(1);
 }
