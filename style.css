@@ -4,7 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: url(./img/search.svg), auto;
+    /* cursor: url(./img/search.png), pointer; */
     background: #f5f5f5;
 }
 .container{
@@ -15,13 +15,15 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom:70px ;
+
 }
 /* POSITIONING  */
 .img{
     width:100%; 
     position: relative;
     transition: .3s ease-in-out;
-
+    cursor: url(./img/search.png), pointer;
 }
 .img img{
     display: block;
